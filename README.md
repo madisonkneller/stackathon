@@ -6,7 +6,7 @@ ASMR stands for autonomous sensory meridian response. It describes a euphoric fe
 
 # Technologies
 
-This site was created using HTML, SCSS, Lax.js & AOS.js.
+This site was created using HTML, Sass, Lax.js & AOS.js.
 
 # Instructions to Download & View Project
 
