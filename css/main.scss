@@ -1,0 +1,403 @@
+body {
+  margin: 0;
+  color: white;
+  background: rgb(4, 50, 61);
+  font-family: "Ariel";
+  a {
+    color: white;
+  }
+}
+
+section {
+  height: 150vh;
+}
+
+section.intro {
+  background: rgb(4, 50, 61);
+  padding-top: 15em;
+
+  p {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 10em;
+    color: white;
+  }
+  h1 {
+    position: absolute;
+    font-size: 8em;
+    text-transform: uppercase;
+    margin: 0;
+    z-index: 1;
+    left: 5%;
+    top: 10%;
+    color: white;
+  }
+}
+
+section.anim {
+  background: rgb(4, 50, 61);
+  padding: 12em;
+  position: relative;
+  height: 225vh;
+
+  .text {
+    font-size: small;
+    color: rgb(4, 50, 61);
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    display: inline-block;
+  }
+
+  .orb1 {
+    position: absolute;
+    top: -18%;
+    left: 15%;
+    z-index: 0;
+    background: lightblue;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    line-height: 500px;
+    text-align: center;
+    font-size: 4.5em;
+
+    .one {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #e0ffff;
+      display: inline-block;
+      position: absolute;
+      left: -25px;
+      top: -25px;
+      line-height: 65px;
+    }
+    .two {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #e0ffff;
+      display: inline-block;
+      position: absolute;
+      top: -115px;
+      left: 200px;
+      line-height: 65px;
+    }
+    .three {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #e0ffff;
+      display: inline-block;
+      position: absolute;
+      right: -25px;
+      top: -25px;
+      line-height: 65px;
+    }
+    .four {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #e0ffff;
+      display: inline-block;
+      position: absolute;
+      left: -25px;
+      bottom: -25px;
+      line-height: 65px;
+    }
+    .five {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #e0ffff;
+      display: inline-block;
+      position: absolute;
+      bottom: -115px;
+      left: 200px;
+      line-height: 65px;
+    }
+    .six {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #e0ffff;
+      display: inline-block;
+      position: absolute;
+      right: -25px;
+      bottom: -25px;
+      line-height: 65px;
+    }
+  }
+
+  .orb2 {
+    position: absolute;
+    top: 13%;
+    left: 55%;
+    z-index: 0;
+    background: lightblue;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    line-height: 500px;
+    text-align: center;
+    font-size: 4.5em;
+
+    .one {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #e0ffff;
+      display: inline-block;
+      position: absolute;
+      left: -25px;
+      top: -25px;
+      line-height: 65px;
+    }
+    .two {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #e0ffff;
+      display: inline-block;
+      position: absolute;
+      top: -115px;
+      left: 200px;
+      line-height: 65px;
+    }
+    .three {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #e0ffff;
+      display: inline-block;
+      position: absolute;
+      right: -25px;
+      top: -25px;
+      line-height: 65px;
+    }
+    .four {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #e0ffff;
+      display: inline-block;
+      position: absolute;
+      left: -25px;
+      bottom: -25px;
+      line-height: 65px;
+    }
+    .five {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #e0ffff;
+      display: inline-block;
+      position: absolute;
+      bottom: -115px;
+      left: 200px;
+      line-height: 65px;
+    }
+    .six {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #e0ffff;
+      display: inline-block;
+      position: absolute;
+      right: -25px;
+      bottom: -25px;
+      line-height: 65px;
+    }
+  }
+
+  .orb3 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    z-index: 0;
+    background: lightblue;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    line-height: 500px;
+    text-align: center;
+    font-size: 4.5em;
+
+    .one {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #e0ffff;
+      display: inline-block;
+      position: absolute;
+      left: -25px;
+      top: -25px;
+      line-height: 65px;
+    }
+    .two {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #e0ffff;
+      display: inline-block;
+      position: absolute;
+      top: -115px;
+      left: 200px;
+      line-height: 65px;
+    }
+    .three {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #e0ffff;
+      display: inline-block;
+      position: absolute;
+      right: -25px;
+      top: -25px;
+      line-height: 65px;
+    }
+    .four {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #e0ffff;
+      display: inline-block;
+      position: absolute;
+      left: -25px;
+      bottom: -25px;
+      line-height: 65px;
+    }
+    .five {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #e0ffff;
+      display: inline-block;
+      position: absolute;
+      bottom: -115px;
+      left: 200px;
+      line-height: 65px;
+    }
+    .six {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #e0ffff;
+      display: inline-block;
+      position: absolute;
+      right: -25px;
+      bottom: -25px;
+      line-height: 65px;
+    }
+  }
+  .orb4 {
+    position: absolute;
+    top: 70%;
+    left: 55%;
+    z-index: 0;
+    background: lightblue;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    line-height: 500px;
+    text-align: center;
+    font-size: 4.5em;
+
+    .one {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #e0ffff;
+      display: inline-block;
+      position: absolute;
+      left: -25px;
+      top: -25px;
+      line-height: 65px;
+    }
+    .two {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #e0ffff;
+      display: inline-block;
+      position: absolute;
+      top: -115px;
+      left: 200px;
+      line-height: 65px;
+    }
+    .three {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #e0ffff;
+      display: inline-block;
+      position: absolute;
+      right: -25px;
+      top: -25px;
+      line-height: 65px;
+    }
+    .four {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #e0ffff;
+      display: inline-block;
+      position: absolute;
+      left: -25px;
+      bottom: -25px;
+      line-height: 65px;
+    }
+    .five {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #e0ffff;
+      display: inline-block;
+      position: absolute;
+      bottom: -115px;
+      left: 200px;
+      line-height: 65px;
+    }
+    .six {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background-color: #e0ffff;
+      display: inline-block;
+      position: absolute;
+      right: -25px;
+      bottom: -25px;
+      line-height: 65px;
+    }
+  }
+}
+
+#about {
+  position: absolute;
+  font-size: 8em;
+  color: white;
+  transform: rotate(270deg);
+  bottom: 0%;
+  left: 0%;
+}
+
+#about-info {
+  position: absolute;
+  font-size: 1.5em;
+  color: white;
+  width: 500px;
+  left: 15%;
+  bottom: 1.5%;
+  opacity: 0;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+#about:hover + #about-info,
+#about-info:hover {
+  opacity: 1;
+}

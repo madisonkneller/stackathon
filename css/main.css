@@ -1,0 +1,427 @@
+body {
+  margin: 0;
+  color: white;
+  background: #04323d;
+  font-family: "Ariel";
+}
+
+body a {
+  color: white;
+}
+
+section {
+  height: 150vh;
+}
+
+section.intro {
+  background: #04323d;
+  padding-top: 15em;
+}
+
+section.intro p {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 10em;
+  color: white;
+}
+
+section.intro h1 {
+  position: absolute;
+  font-size: 8em;
+  text-transform: uppercase;
+  margin: 0;
+  z-index: 1;
+  left: 5%;
+  top: 10%;
+  color: white;
+}
+
+section.anim {
+  background: #04323d;
+  padding: 12em;
+  position: relative;
+  height: 225vh;
+}
+
+section.anim .text {
+  font-size: small;
+  color: #04323d;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  display: inline-block;
+}
+
+section.anim .orb1 {
+  position: absolute;
+  top: -18%;
+  left: 15%;
+  z-index: 0;
+  background: lightblue;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  line-height: 500px;
+  text-align: center;
+  font-size: 4.5em;
+}
+
+section.anim .orb1 .one {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0ffff;
+  display: inline-block;
+  position: absolute;
+  left: -25px;
+  top: -25px;
+  line-height: 65px;
+}
+
+section.anim .orb1 .two {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0ffff;
+  display: inline-block;
+  position: absolute;
+  top: -115px;
+  left: 200px;
+  line-height: 65px;
+}
+
+section.anim .orb1 .three {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0ffff;
+  display: inline-block;
+  position: absolute;
+  right: -25px;
+  top: -25px;
+  line-height: 65px;
+}
+
+section.anim .orb1 .four {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0ffff;
+  display: inline-block;
+  position: absolute;
+  left: -25px;
+  bottom: -25px;
+  line-height: 65px;
+}
+
+section.anim .orb1 .five {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0ffff;
+  display: inline-block;
+  position: absolute;
+  bottom: -115px;
+  left: 200px;
+  line-height: 65px;
+}
+
+section.anim .orb1 .six {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0ffff;
+  display: inline-block;
+  position: absolute;
+  right: -25px;
+  bottom: -25px;
+  line-height: 65px;
+}
+
+section.anim .orb2 {
+  position: absolute;
+  top: 13%;
+  left: 55%;
+  z-index: 0;
+  background: lightblue;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  line-height: 500px;
+  text-align: center;
+  font-size: 4.5em;
+}
+
+section.anim .orb2 .one {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0ffff;
+  display: inline-block;
+  position: absolute;
+  left: -25px;
+  top: -25px;
+  line-height: 65px;
+}
+
+section.anim .orb2 .two {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0ffff;
+  display: inline-block;
+  position: absolute;
+  top: -115px;
+  left: 200px;
+  line-height: 65px;
+}
+
+section.anim .orb2 .three {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0ffff;
+  display: inline-block;
+  position: absolute;
+  right: -25px;
+  top: -25px;
+  line-height: 65px;
+}
+
+section.anim .orb2 .four {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0ffff;
+  display: inline-block;
+  position: absolute;
+  left: -25px;
+  bottom: -25px;
+  line-height: 65px;
+}
+
+section.anim .orb2 .five {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0ffff;
+  display: inline-block;
+  position: absolute;
+  bottom: -115px;
+  left: 200px;
+  line-height: 65px;
+}
+
+section.anim .orb2 .six {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0ffff;
+  display: inline-block;
+  position: absolute;
+  right: -25px;
+  bottom: -25px;
+  line-height: 65px;
+}
+
+section.anim .orb3 {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  z-index: 0;
+  background: lightblue;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  line-height: 500px;
+  text-align: center;
+  font-size: 4.5em;
+}
+
+section.anim .orb3 .one {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0ffff;
+  display: inline-block;
+  position: absolute;
+  left: -25px;
+  top: -25px;
+  line-height: 65px;
+}
+
+section.anim .orb3 .two {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0ffff;
+  display: inline-block;
+  position: absolute;
+  top: -115px;
+  left: 200px;
+  line-height: 65px;
+}
+
+section.anim .orb3 .three {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0ffff;
+  display: inline-block;
+  position: absolute;
+  right: -25px;
+  top: -25px;
+  line-height: 65px;
+}
+
+section.anim .orb3 .four {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0ffff;
+  display: inline-block;
+  position: absolute;
+  left: -25px;
+  bottom: -25px;
+  line-height: 65px;
+}
+
+section.anim .orb3 .five {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0ffff;
+  display: inline-block;
+  position: absolute;
+  bottom: -115px;
+  left: 200px;
+  line-height: 65px;
+}
+
+section.anim .orb3 .six {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0ffff;
+  display: inline-block;
+  position: absolute;
+  right: -25px;
+  bottom: -25px;
+  line-height: 65px;
+}
+
+section.anim .orb4 {
+  position: absolute;
+  top: 70%;
+  left: 55%;
+  z-index: 0;
+  background: lightblue;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  line-height: 500px;
+  text-align: center;
+  font-size: 4.5em;
+}
+
+section.anim .orb4 .one {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0ffff;
+  display: inline-block;
+  position: absolute;
+  left: -25px;
+  top: -25px;
+  line-height: 65px;
+}
+
+section.anim .orb4 .two {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0ffff;
+  display: inline-block;
+  position: absolute;
+  top: -115px;
+  left: 200px;
+  line-height: 65px;
+}
+
+section.anim .orb4 .three {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0ffff;
+  display: inline-block;
+  position: absolute;
+  right: -25px;
+  top: -25px;
+  line-height: 65px;
+}
+
+section.anim .orb4 .four {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0ffff;
+  display: inline-block;
+  position: absolute;
+  left: -25px;
+  bottom: -25px;
+  line-height: 65px;
+}
+
+section.anim .orb4 .five {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0ffff;
+  display: inline-block;
+  position: absolute;
+  bottom: -115px;
+  left: 200px;
+  line-height: 65px;
+}
+
+section.anim .orb4 .six {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #e0ffff;
+  display: inline-block;
+  position: absolute;
+  right: -25px;
+  bottom: -25px;
+  line-height: 65px;
+}
+
+#about {
+  position: absolute;
+  font-size: 8em;
+  color: white;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  bottom: 0%;
+  left: 0%;
+}
+
+#about-info {
+  position: absolute;
+  font-size: 1.5em;
+  color: white;
+  width: 500px;
+  left: 15%;
+  bottom: 1.5%;
+  opacity: 0;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+#about:hover + #about-info,
+#about-info:hover {
+  opacity: 1;
+}
+/*# sourceMappingURL=main.css.map */
