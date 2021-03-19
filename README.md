@@ -10,12 +10,12 @@ View Live: https://experience-asmr.herokuapp.com
 
 This site was created using HTML, Sass, Lax.js & AOS.js.
 
-# Instructions to Download & View Project
+## Instructions to Download & View Project On Your Local Machine
 
 1. Fork this repository to your personal Github account and clone it to your local machine.
 
 2. Run 'npm install' to download project dependencies.
 
-3. Download or use the "Go Live" VS Code extension to view the project in your browser.
+3. Download and/or use the "Go Live" VS Code extension to view the project in your browser.
 
 # Thank you for your time & consideration.
