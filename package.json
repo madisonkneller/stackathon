@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "aos": "^2.3.4",
-    "lax.js": "^2.0.2"
+    "lax.js": "^2.0.2",
+    "live-server": "^1.2.1"
   }
 }
