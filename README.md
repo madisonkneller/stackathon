@@ -4,6 +4,8 @@
 
 ASMR stands for autonomous sensory meridian response. It describes a euphoric feeling often consisting of tingles and relaxation that a person may feel when experiencing, watching or hearing certain sounds or situations. This site was created to introduce those new to ASMR to the expansive list of different triggers (something that brings on that euphoric feeling).
 
+View Live: https://experience-asmr.herokuapp.com
+
 # Technologies
 
 This site was created using HTML, Sass, Lax.js & AOS.js.
